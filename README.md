@@ -6,7 +6,11 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 
 * 사양
 
-    - ##### MacBook m1 pro 32GB 1TB
+    - MacBook m1 pro 32GB 1TB
+    - macOS Monterey 12.4
+    - Miniforge 3
+    - Python 3.9
+    - TensorFlow 2.8.0
 
 # 프로젝트 목적
 
