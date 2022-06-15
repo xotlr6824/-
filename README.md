@@ -2,6 +2,7 @@
 
 opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교정 및 골프 스윙 경로 추적
 
+##2016104103 컴퓨터공학과 곽태식
 
 골프의 스윙 경로를 추적하여 그림으로 나타내 확인 할 수 있는 방법
 
