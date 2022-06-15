@@ -4,7 +4,7 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 
 ### 2016104103 컴퓨터공학과 곽태식
 
-*사양
+* 사양
 
 ##### MacBook m1 pro 32GB 1TB
 
