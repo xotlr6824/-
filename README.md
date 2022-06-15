@@ -2,9 +2,9 @@
 
 opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교정 및 골프 스윙 경로 추적
 
-### 2016104103 컴퓨터공학과 곽태식
+#### 2016104103 컴퓨터공학과 곽태식
 
-### MacBook m1 pro 32GB 1TB
+##### MacBook m1 pro 32GB 1TB
 
 # 프로젝트 목적
 
