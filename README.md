@@ -15,9 +15,7 @@ teachable machine으로 골프 스윙 경로를 시작할 시점을 판단할 �
 pose model은 json파일만 지원을 하여 image model로 생성하여 아쉬운 점이 있다.
 
   0:swing
-
   1:swing finish // 스윙경로 지울 시점
-
   2:swing start // 스윙경로 생성 시점
 
 https://user-images.githubusercontent.com/48917101/173853618-1ae59bf1-ab60-422a-9fbf-6cecd48d9dc8.mp4
