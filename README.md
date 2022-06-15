@@ -1,5 +1,7 @@
-# -
-opencv / openpose / teachable machine
+# 주제
+
+opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교정 및 골프 스윙 경로 추적
+
 
 골프의 스윙 경로를 추적하여 그림으로 나타내 확인 할 수 있는 방법
 
