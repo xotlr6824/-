@@ -17,6 +17,17 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 헬스의 팔 각도, 골프의 스윙 경로를 추적하여 사용자 스스로 확인하여 보완, 발전 할 수 있도록 돕고자 한다.
 
 
+#프로그램 및 모듈 설치
+
+1. m1 pro TensorFlow2.x 설치
+  
+  apple silicon(m1)의 지원이 완벽하지 않아 miniforge의 설치가 필요하다.
+
+  [공식링크]([https://danaing.github.io/etc/2022/03/31/M1-mac-install-tensorflow.html](https://github.com/conda-forge/miniforge/)) 에서 다운받는다.
+  
+        $ cd downloads
+        $ bash Miniforge3-MacOSX-arm64.sh
+
 # 실행화면
 
 teachable machine으로 골프 스윙 경로를 시작할 시점을 판단할 모델을 만들었다.
