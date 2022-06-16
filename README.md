@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/48917101/174012279-6386efae-a6ed-4ee5-
  
  팔, 손목을 뿐 아니라 운동의 종류에 맞게 각도를 설정하면 여러가지 운동에 적용할 수 있을 것으로 보인다.
 
-# 2.Golf_Tracking
+# 2. Golf_Tracking
 
  ## 프로그램 및 모듈 설치
 
@@ -133,7 +133,19 @@ model 생성 후 swing start라 예측되면 파랑색을 추적하여 경로를
 
 스윙 후 finish라 판단되면 경로를 지우고 돌아간다.
 
-# 결과
+https://user-images.githubusercontent.com/48917101/173851027-ea5f25ea-b85c-4535-979a-d29c8ffc988b.mp4
+
 
 https://user-images.githubusercontent.com/48917101/173851027-ea5f25ea-b85c-4535-979a-d29c8ffc988b.mp4
+
+## 결과
+
+swing판단을 할 때 image model을 사용했기 때문에 다른 장소에서 한다면 어려움을 겪을 것으로 보인다.
+
+pose model을 사용한다면 판단할 때 개선 될 것으로 보여진다.
+
+또한 tracking을 할 때 색추정을 사용하기 때문에 추정색이 없는 상태에서 한다면 더 유의미한 결과를 얻을 것으로 보인다.
+
+
+
 
