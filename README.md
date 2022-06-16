@@ -16,10 +16,34 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 
 헬스의 팔 각도, 골프의 스윙 경로를 추적하여 사용자 스스로 확인하여 보완, 발전 할 수 있도록 돕고자 한다.
 
+# 1.Health_degree
 
-# 프로그램 및 모듈 설치
+ ## 프로그램 및 모듈 설치
+ 
+1.1 OpenPose 설치
 
-1. m1 pro TensorFlow2.x 설치
+ [공식링크](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 에서 다운받는다.
+ 
+    # [models] 폴더에 있는 getmodels.sh 파일 실행 /windows 환경이라면 getmodels 파일 실행
+    
+    # caffemodel 다운로드 확인
+  
+ 다운로드가 확인되면 코드내에서 protxt, caffemodel 파일 경로를 설정해주면 된다.
+ 
+ 골반과 발 관절이 추가된 body25 모델을 사용하였다.
+ 
+ mpii - 15개 / coco - 18개 / body25 - 25개
+ 
+1.2 모듈 설치
+
+    $ pip install opencv-python
+    $ pip install math
+
+# 2.Golf_Tracking
+
+ ## 프로그램 및 모듈 설치
+
+1.1 m1 pro TensorFlow2.x 설치
   
   apple silicon(m1)의 지원이 완벽하지 않아 miniforge의 설치가 필요하다.
 
@@ -56,7 +80,7 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
    
     conda deactivate [가상환경이름]
     
-2. 모듈 설치
+1.2 모듈 설치
 
 
         $ pip install opencv-python
@@ -66,17 +90,18 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 
 # 실행화면
 
-## GOLF TRACKING
-
 teachable machine으로 골프 스윙 경로를 시작할 시점을 판단할 모델을 만들었다.
 
-pose model은 json파일만 지원을 하여 image model로 생성하여 아쉬운 점이 있다.
+pose model은 json파일만 지원을 하여 image model로 생성하였다.
 
+    #모델
+    
     0:swing
 
     1:swing finish // 스윙경로 지울 시점
 
     2:swing start // 스윙경로 생성 시점
+
 
 https://user-images.githubusercontent.com/48917101/173853618-1ae59bf1-ab60-422a-9fbf-6cecd48d9dc8.mp4
 
