@@ -27,6 +27,34 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
   
         $ cd downloads
         $ bash Miniforge3-MacOSX-arm64.sh
+  
+  ### 가상환경 생성
+  
+    $ conda create -n [가상환경이름] python=[파이썬버전]
+    
+  ### 가상환경 활성화
+  
+    $ conda activate [가상환경이름]
+  
+  ### tensorflow 설치
+  
+    $ conda install -c apple tensorflow-deps -y
+    
+    # python 설치
+    $ python -m pip install tensorflow-macos
+    
+    # tensorflow plugin 설치
+    $ pip install tensorflow-metal
+    
+  ### VSCode 가상환경 연동
+  
+   vscode 터미널에서 명령어 입력  
+   
+    conda activate [가상환경이름]
+    
+   가상환경 나올 때
+   
+    conda deactivate [가상환경이름]
 
 # 실행화면
 
