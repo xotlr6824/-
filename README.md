@@ -16,7 +16,7 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 
 헬스의 팔 각도, 골프의 스윙 경로를 추적하여 사용자 스스로 확인하여 보완, 발전 할 수 있도록 돕고자 한다.
 
-# 1.Health_degree
+# 1. Health_degree
 
  ## 프로그램 및 모듈 설치
  
@@ -38,6 +38,29 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 
     $ pip install opencv-python
     $ pip install math
+
+ ## 실행 화면
+ 
+  덤벨 숄더 프레스 운동을 한다는 과정에서 작성한 코드이다.
+  
+  
+  ![img](https://user-images.githubusercontent.com/48917101/174013376-98a25f90-a4cb-43be-b559-97292b127541.png)
+
+  
+  
+  
+  openpose 관절 포인트를 잡는다.
+  
+  팔꿈치와 손목의 각도를 math로 측정하여 70도 보다 작으면 덜 펴진것으로 판단한다.
+  
+  덜 펴졌을 경우 빨간색 선으로 나타내어 잘못된 자세임을 인지시킨다.
+
+https://user-images.githubusercontent.com/48917101/174012279-6386efae-a6ed-4ee5-a01c-b059ca23aa38.mp4
+
+
+ ## 결과
+ 
+ 팔, 손목을 뿐 아니라 운동의 종류에 맞게 각도를 설정하면 여러가지 운동에 적용할 수 있을 것으로 보인다.
 
 # 2.Golf_Tracking
 
