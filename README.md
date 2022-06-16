@@ -1,6 +1,6 @@
 # 주제
 
-opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교정 및 골프 스윙 경로 추적
+## opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교정 및 골프 스윙 경로 추적
 
 ### 2016104103 컴퓨터공학과 곽태식
 
@@ -136,7 +136,6 @@ model 생성 후 swing start라 예측되면 파랑색을 추적하여 경로를
 https://user-images.githubusercontent.com/48917101/173851027-ea5f25ea-b85c-4535-979a-d29c8ffc988b.mp4
 
 
-https://user-images.githubusercontent.com/48917101/173851027-ea5f25ea-b85c-4535-979a-d29c8ffc988b.mp4
 
 ## 결과
 
