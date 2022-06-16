@@ -55,7 +55,9 @@
   
   덜 펴졌을 경우 빨간색 선으로 나타내어 잘못된 자세임을 인지시킨다.
 
-https://user-images.githubusercontent.com/48917101/174012279-6386efae-a6ed-4ee5-a01c-b059ca23aa38.mp4
+
+https://user-images.githubusercontent.com/48917101/174031698-de5ec5cb-1335-4d32-bed4-1e91a005dc8d.mp4
+
 
 openpose에서 계산 할때 애플 실리콘부터 gpu 지원이 중단되면서 cpu만으로 계산을 하기 때문에 버퍼링현상이 있다.
 
