@@ -57,6 +57,12 @@
 
 https://user-images.githubusercontent.com/48917101/174012279-6386efae-a6ed-4ee5-a01c-b059ca23aa38.mp4
 
+openpose에서 계산 할때 애플 실리콘부터 gpu 지원이 중단되면서 cpu만으로 계산을 하기 때문에 버퍼링현상이 있다.
+
+
+부드럽게 이어지는 영상을 확인하기 위해 녹화를 한 후 녹화한 영상을 분석한 뒤에 저장하여 확인하는 방법도 추가하였다.
+
+    #Health_degree_recod.py
 
  ## 결과
  
