@@ -23,7 +23,7 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
   
   apple silicon(m1)의 지원이 완벽하지 않아 miniforge의 설치가 필요하다.
 
-  [공식링크]([https://danaing.github.io/etc/2022/03/31/M1-mac-install-tensorflow.html](https://github.com/conda-forge/miniforge/)) 에서 다운받는다.
+  [공식링크](https://github.com/conda-forge/miniforge/) 에서 다운받는다.
   
         $ cd downloads
         $ bash Miniforge3-MacOSX-arm64.sh
