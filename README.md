@@ -17,7 +17,7 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
 헬스의 팔 각도, 골프의 스윙 경로를 추적하여 사용자 스스로 확인하여 보완, 발전 할 수 있도록 돕고자 한다.
 
 
-#프로그램 및 모듈 설치
+# 프로그램 및 모듈 설치
 
 1. m1 pro TensorFlow2.x 설치
   
@@ -55,8 +55,18 @@ opencv / openpose / teachable machine / tensorflow를 이용한 헬스 자세교
    가상환경 나올 때
    
     conda deactivate [가상환경이름]
+    
+2. 모듈 설치
+
+
+        $ pip install opencv-python
+        
+        $ pip install numpy
+
 
 # 실행화면
+
+## GOLF TRACKING
 
 teachable machine으로 골프 스윙 경로를 시작할 시점을 판단할 모델을 만들었다.
 
